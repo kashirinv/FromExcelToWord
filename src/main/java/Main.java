@@ -20,7 +20,7 @@ public class Main {
     public static void main(String[] args){
         try {
             FileInputStream inputStream = new FileInputStream("CS.xlsx");//создаём поток ввода из экселя
-            FileOutputStream writeIntoWord = new FileOutputStream("output.docx");//поток для вывода в word
+            //FileOutputStream writeIntoWord = new FileOutputStream("output.docx");//поток для вывода в word
             try {
                 //открываем word
                 //XWPFDocument wordDocument = new XWPFDocument();
